@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(48, 44, 44);
+}
+h1 {
+    margin: 1rem;
+    color: white;
+    text-align: center;
+}
