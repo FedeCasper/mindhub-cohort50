@@ -99,7 +99,6 @@ const mentor2 = {
      edad: 23
 }
 
-
 // keys devuelve un array con las propiedadesd el objeto 
 // console.log( Object.keys(persona) ); 
 
@@ -113,6 +112,15 @@ const mentor2 = {
 // values devuelve un array con los valores de las propiedadees del objeto 
 // console.log( Object.values(persona) );
 
-console.log( Object.keys(mentoresJS) );
+// entries devuelve un array por cada propiedad y su valor correspondiente
+// console.log(Object.entries(persona));
+
+console.log(persona.hasOwnProperty("nommbre"));
+
+// En el fondo un array es un objeto
+// console.log( Object.keys(mentoresJS) );
+
+
+
 
 
