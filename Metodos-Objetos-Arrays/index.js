@@ -115,7 +115,8 @@ const mentor2 = {
 // entries devuelve un array por cada propiedad y su valor correspondiente
 // console.log(Object.entries(persona));
 
-console.log(persona.hasOwnProperty("nommbre"));
+// hasOwnProperty devuelve un booleano indicando si el objeto tiene la propiedad especificada.
+// console.log(persona.hasOwnProperty("nombre"));
 
 // En el fondo un array es un objeto
 // console.log( Object.keys(mentoresJS) );
